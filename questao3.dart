@@ -3,7 +3,7 @@ import 'dart:io';
 void exibirDetalhes(String produto, {required double preco, double desconto = 0}) {
   double precoF = preco-desconto;
 
-   print("""
+  print("""
   Produto: $produto"
   Preço original: R\$ ${preco.toStringAsFixed(2)}
   Desconto: R\$ ${desconto.toStringAsFixed(2)}
